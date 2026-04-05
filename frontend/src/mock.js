@@ -15,7 +15,7 @@ export const portfolioData = {
 
   metrics: {
     title: "Proof in outcomes",
-    description: "I've led platform products for DevOps teams, migration engineers, and infrastructure operators—solving real workflow problems and delivering measurable results.",
+    description: "I've led platform products for DevOps and cloud teams, migration engineers, payment and travel operators—solving real workflow problems and using data and AI to deliver measurable results.",
     stats: [
       { label: "Products shipped", value: "4+" },
       { label: "Years in product", value: "3+" },
