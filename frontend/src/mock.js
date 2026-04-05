@@ -23,6 +23,60 @@ export const portfolioData = {
     ]
   },
 
+  whyMe: {
+    title: "I don't just manage products. I own outcomes.",
+    subtitle: "Most product managers can run a sprint. I take ownership of the entire problem space—from stakeholder alignment and trade-off analysis to execution and measurable results.",
+    strengths: [
+      {
+        title: "Complex systems, clear outcomes",
+        description: "I specialize in products where the technical architecture is intricate—DevOps pipelines, payment flows, NDC integrations—and the business can't afford ambiguity."
+      },
+      {
+        title: "Cross-domain fluency",
+        description: "Travel-tech, cloud modernization, repository migration, professional services. I learn fast and connect dots across industries that others treat as separate worlds."
+      },
+      {
+        title: "Decisions backed by data",
+        description: "With a background in data science and analytics, I don't guess at priorities. I build the evidence, validate assumptions, then move."
+      },
+      {
+        title: "Growth-minded communication",
+        description: "Digital marketing and audience strategy aren't side skills—they're how I drive adoption, align stakeholders, and make products people actually use."
+      }
+    ]
+  },
+
+  howIThink: {
+    title: "Principles that guide every product decision.",
+    principles: [
+      {
+        number: "01",
+        title: "Start with the constraint, not the feature",
+        description: "Every product decision exists inside a box of technical limits, business timelines, and user tolerance. I map the box first, then find the best move inside it."
+      },
+      {
+        number: "02",
+        title: "Make trade-offs explicit",
+        description: "I don't hide trade-offs behind optimistic roadmaps. If speed costs quality, or if we're choosing vendor lock-in for faster delivery, everyone knows upfront."
+      },
+      {
+        number: "03",
+        title: "Ship to learn, not to launch",
+        description: "A release isn't a finish line. It's the fastest way to get real data on whether our assumptions hold. I optimize for learning velocity over feature count."
+      },
+      {
+        number: "04",
+        title: "Own the problem, not just the backlog",
+        description: "I don't wait for requirements to arrive. I go to the source—users, data, support logs—and define the problem worth solving before writing a single ticket."
+      },
+      {
+        number: "05",
+        title: "Bridge the gap between technical and business",
+        description: "I speak both languages fluently. Engineers trust me because I understand system constraints. Executives trust me because I tie every decision to business outcomes."
+      }
+    ]
+  },
+
   operatingSystem: {
     title: "My product operating system",
     subtitle: "I don't just ship features—I build systems people rely on. Here's how I think about product work:",

@@ -125,6 +125,24 @@ const Portfolio = () => {
           </div>
         </section>
 
+        {/* Why Me Section */}
+        <section className="why-me-section">
+          <div className="container">
+            <p className="kicker">Why me</p>
+            <h2 className="section-headline">{portfolioData.whyMe.title}</h2>
+            <p className="section-lede">{portfolioData.whyMe.subtitle}</p>
+
+            <div className="strengths-grid">
+              {portfolioData.whyMe.strengths.map((strength, idx) => (
+                <Card key={idx} className="strength-card">
+                  <h3 className="strength-title">{strength.title}</h3>
+                  <p className="strength-desc">{strength.description}</p>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Work Section */}
         <section id="work" className="work-section">
           <div className="container">
@@ -235,6 +253,26 @@ const Portfolio = () => {
                     ))}
                   </div>
                 </Card>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* How I Think Section */}
+        <section className="how-i-think-section">
+          <div className="container">
+            <p className="kicker">How I think</p>
+            <h2 className="section-headline">{portfolioData.howIThink.title}</h2>
+
+            <div className="principles-list">
+              {portfolioData.howIThink.principles.map((principle, idx) => (
+                <div key={idx} className="principle-item">
+                  <span className="principle-number">{principle.number}</span>
+                  <div className="principle-content">
+                    <h3 className="principle-title">{principle.title}</h3>
+                    <p className="principle-desc">{principle.description}</p>
+                  </div>
+                </div>
               ))}
             </div>
           </div>
