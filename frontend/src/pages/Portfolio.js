@@ -47,7 +47,6 @@ const Portfolio = () => {
             <a href="#case-studies">Case Studies</a>
             <a href="#experience">Experience</a>
             <a href="#skills">Skills</a>
-            <a href="#about">About</a>
             <a href="#contact">Contact</a>
           </nav>
 
@@ -81,7 +80,6 @@ const Portfolio = () => {
             <a href="#case-studies" onClick={() => setMobileMenuOpen(false)}>Case Studies</a>
             <a href="#experience" onClick={() => setMobileMenuOpen(false)}>Experience</a>
             <a href="#skills" onClick={() => setMobileMenuOpen(false)}>Skills</a>
-            <a href="#about" onClick={() => setMobileMenuOpen(false)}>About</a>
             <a href="#contact" onClick={() => setMobileMenuOpen(false)}>Contact</a>
           </nav>
         )}
@@ -331,59 +329,6 @@ const Portfolio = () => {
                   </ul>
                 </Card>
               ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Portfolio Extensions Section */}
-        <section className="extensions-section">
-          <div className="container">
-            <p className="kicker">Extended profile.</p>
-            <h2 className="section-headline">More than a standard product portfolio.</h2>
-            <p className="section-lede">My background spans analytics, data science, and multiple market verticals—giving me a broader toolkit for product decisions.</p>
-
-            <div className="extensions-grid">
-              {portfolioData.portfolioExtensions.map((extension, idx) => (
-                <Card key={idx} className="extension-card">
-                  <h3 className="extension-title">{extension.title}</h3>
-                  <p className="extension-desc">{extension.description}</p>
-                  {extension.links && (
-                    <div className="extension-links">
-                      {extension.links.map((link, linkIdx) => (
-                        <a key={linkIdx} href={link.url} className="extension-link">
-                          {link.label}
-                          <ExternalLink size={16} />
-                        </a>
-                      ))}
-                    </div>
-                  )}
-                  {extension.tags && (
-                    <div className="tag-list">
-                      {extension.tags.map((tag, tagIdx) => (
-                        <Badge key={tagIdx} variant="secondary">{tag}</Badge>
-                      ))}
-                    </div>
-                  )}
-                </Card>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* About Section */}
-        <section id="about" className="about-section">
-          <div className="container about-container">
-            <div className="about-content">
-              <p className="kicker">About.</p>
-              <h2 className="section-headline">{portfolioData.about.title}</h2>
-              {portfolioData.about.content.map((paragraph, idx) => (
-                <p key={idx} className="about-paragraph">{paragraph}</p>
-              ))}
-            </div>
-            <div className="about-quote">
-              <blockquote>
-                <p>{portfolioData.about.quote}</p>
-              </blockquote>
             </div>
           </div>
         </section>
