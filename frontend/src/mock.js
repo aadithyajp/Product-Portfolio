@@ -123,21 +123,21 @@ export const portfolioData = {
     {
       category: "CLOUD · INFRASTRUCTURE-AS-CODE",
       headline: "Reducing cloud provisioning time from days to hours",
-      intro: "Enterprise platform teams were stuck with manual, ticket-based infrastructure provisioning. A new project could wait 3-5 days for basic cloud resources, blocking product velocity.",
+      intro: "Enterprise platform teams were stuck with manual, ticket-based infrastructure provisioning. A new project could wait 3–5 days for basic cloud resources, blocking product velocity.",
       client: "UST (PACE)",
       domain: "Cloud / IaC",
       status: "In production",
-      tags: ["Infrastructure-as-code", "Terraform", "Cloud modernization", "AI automation", "GitOps"],
+      tags: ["Infrastructure-as-code", "Multi-cloud", "AI automation", "GitOps", "Cloud modernisation"],
       details: {
-        context: "The company was scaling rapidly, adding 10+ new services per quarter. Manual provisioning created a bottleneck. Cloud costs were spiraling due to lack of governance.",
-        userNeed: "Product teams needed self-service infrastructure provisioning. Platform teams needed governance and compliance built into the workflow.",
-        constraints: "Teams had varying Terraform expertise. No dedicated platform engineering budget. Had to work with existing AWS/Azure/GCP footprints.",
-        optionsConsidered: "Build a custom portal. Adopt an open-source IaC tool. Use a commercial platform like Terraform Cloud.",
-        tradeOffs: "Custom portal: flexible but high maintenance. Open-source: free but requires expertise. Commercial: expensive but battle-tested.",
-        decision: "Built an AI-driven IaC platform (InfraFlow) that generates compliant Terraform code from simple inputs, integrated with GitOps workflows for review and approval.",
-        execution: "Created modular Terraform templates for common patterns (VPC, EKS, RDS). Built a web UI for self-service provisioning. Integrated policy-as-code checks using OPA.",
-        outcome: "50% faster provisioning (days to hours). 90% Day-0 compliance with security policies. Reduced manual toil for platform teams by 70%.",
-        lessonLearned: "Self-service infrastructure only works if you build governance into the platform itself. Trust but verify with automated policy checks."
+        context: "The company was scaling rapidly, adding 10+ new services per quarter. Manual provisioning created a bottleneck and cloud costs were spiralling due to lack of governance.",
+        userNeed: "Product teams needed self-service infrastructure provisioning. Platform teams needed governance and compliance built into the workflow — not bolted on after.",
+        constraints: "Teams had varying IaC expertise. Had to work within existing AWS, Azure, and GCP footprints without forcing a platform switch.",
+        optionsConsidered: "Build a custom portal. Adopt an open-source IaC tool. Use a commercial platform like Terraform Cloud — but it wasn't cloud-agnostic enough for our multi-cloud environment.",
+        tradeOffs: "Custom portal: flexible but high maintenance. Open-source: low cost but required deep expertise to standardise. Commercial: battle-tested but locked us into a single cloud provider.",
+        decision: "Built InfraFlow — an AI-driven IaC platform that generates compliant infrastructure code for the target cloud type from simple inputs, integrated with GitOps workflows for review and approval.",
+        execution: "Created modular IaC templates for common patterns across AWS, Azure, and GCP. Built a web UI for self-service provisioning. Integrated policy-as-code checks using OPA for automated compliance.",
+        outcome: "50% faster provisioning — from days to hours. 90% Day-0 compliance with security policies. Reduced manual toil for platform teams by 70%.",
+        lessonLearned: "Self-service infrastructure only works if governance is built into the platform itself. Trust but verify — with automated policy checks at every step."
       }
     },
     {
