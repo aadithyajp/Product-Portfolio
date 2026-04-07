@@ -199,7 +199,7 @@ export const portfolioData = {
       role: "Junior Product Associate",
       company: "Clarity Travel Technology Solutions",
       period: "Mar 2023 – Mar 2025 · 2 yrs 1 mo",
-      description: "Drove product development for airline API integrations (Air India, Emirates, Etihad, British Airways) and the payment gateway aggregator platform. Implemented sprint capacity planning, MoSCoW prioritisation, and market analysis to improve velocity and roadmap alignment. Led end-to-end UI/UX versioning improvements and cross-functional stakeholder collaboration."
+      description: "Drove product development for 25+ airline API integrations (Air India, Emirates, Etihad, British Airways, and more) and the payment gateway aggregator platform. Implemented sprint capacity planning, MoSCoW prioritisation, and market analysis to improve velocity and roadmap alignment. Led end-to-end UI/UX versioning improvements and cross-functional stakeholder collaboration."
     }
   ],
 
