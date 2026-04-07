@@ -8,8 +8,8 @@ export const portfolioData = {
     email: "aadithyajp26@gmail.com",
     phone: "+91 9384184215",
     location: "Chennai, India",
-    linkedin: "https://www.linkedin.com/in/aadithyajp",
-    github: "#",
+    linkedin: "https://www.linkedin.com/in/aadithyajp/",
+    github: "https://github.com/aadithyajp",
     recognition: "Above and Beyond award for exceptional performance in product ownership"
   },
 
@@ -29,19 +29,19 @@ export const portfolioData = {
     strengths: [
       {
         title: "Complex systems, clear outcomes",
-        description: "I specialise in products where the architecture is intricate — DevOps pipelines, payment orchestration, NDC integrations, SCM migrations — and where the business cannot afford ambiguity. I use AI to surface patterns faster and reduce the time between problem and decision."
+        description: "I specialise in products where the architecture is intricate — migrating 4,000+ repositories, orchestrating 18+ payment gateways, integrating 25+ airlines across NDC and GDS — and where the business cannot afford ambiguity. I use AI to surface patterns faster and reduce the time between problem and decision."
       },
       {
         title: "Cross-domain fluency",
-        description: "Travel-tech, cloud modernisation, repository migration, payments, professional services. I learn fast, connect dots across industries, and use AI tools to compress research and discovery cycles — so I spend more time on decisions, less on information gathering."
+        description: "I've shipped across DevOps platforms, cloud infrastructure, travel-tech, and payments — connecting dots that others treat as separate worlds. From SCM migrations to airline distribution to IaC provisioning, I learn fast and use AI to compress research cycles so I spend more time deciding, less time gathering."
       },
       {
         title: "Decisions backed by data and AI",
-        description: "With a foundation in data science and analytics, I build the evidence before I commit to a direction. I use AI to validate assumptions, detect patterns in usage data, and prioritise with confidence"
+        description: "With a foundation in data science and analytics, I build the evidence before I commit to a direction — not gut instinct. I use AI to validate assumptions, detect patterns in usage data, and prioritise with confidence."
       },
       {
         title: "Growth-minded communication",
-        description: "Clear communication is how products get adopted. I use plain language, structured artifacts, and AI-assisted content to align stakeholders, explain complex decisions, and drive real usage — not just feature launches."
+        description: "Clear communication is how products get adopted. I structure work as vertical slice user stories so teams always know what they're building and why. I use plain language, structured artifacts, and AI-assisted content to align stakeholders and drive real usage — not just feature launches."
       }
     ]
   },
