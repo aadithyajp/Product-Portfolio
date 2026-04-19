@@ -149,22 +149,22 @@ export const portfolioData = {
 
   operatingSystem: {
     title: "My product operating system",
-    subtitle: "I don't just ship features—I build systems people rely on. Here's how I think about product work:",
+    subtitle: "I don't just ship features — I build systems teams rely on, and I use AI to move faster and decide smarter. Here's how I operate:",
     principles: [
       {
-        title: "Platform thinking",
-        description: "I design products as platforms—not one-off tools. That means thinking in abstractions, reusable components, and workflows that scale across teams and use cases.",
-        tags: ["API-first design", "Reusable components", "Multi-tenant architecture", "Workflow automation"]
+        title: "Discovery and validation",
+        description: "I run customer calls to understand the job-to-be-done, map gaps between where users are and where they need to be, and validate willingness to pay before committing to a POC. I use competitive analysis to inform what to build and what to skip.",
+        tags: ["JTBD", "ODI", "Customer discovery", "Competitive analysis", "POC validation"]
       },
       {
-        title: "Execution clarity",
-        description: "I turn vague problem statements into scoped, delivery-ready work. I structure stories as vertical slices — each one delivering end-to-end value so teams ship working product every sprint, not just completed tasks. Every release has a clear success metric and proof of impact.",
-        tags: ["User story mapping", "Metrics-driven roadmaps", "Sprint planning", "Stakeholder alignment"]
+        title: "Roadmap and delivery",
+        description: "I translate validated problems into capability-oriented epics and vertical slice user stories — scoped for sprint delivery and independently testable by QA. I run PO acceptance checks before production and write release notes and updated documentation after every epic ships.",
+        tags: ["Vertical slices", "Epics", "PO acceptance", "Release notes", "Sprint planning"]
       },
       {
-        title: "Business outcomes",
-        description: "I speak business. I translate technical wins into revenue impact, efficiency gains, and compliance wins—and I make sure engineering effort ties back to strategic goals.",
-        tags: ["ROI modeling", "Cost optimization", "Compliance impact", "Revenue acceleration"]
+        title: "Platform and business outcomes",
+        description: "I design products as platforms — reusable, integration-first, and built to scale across teams. I tie every engineering decision to a business outcome: cost, reliability, compliance, or revenue. And I actively expand the product's footprint in the client environment post-launch.",
+        tags: ["Platform thinking", "ROI modeling", "Product lifecycle", "Stakeholder alignment", "AI automation"]
       }
     ]
   },
