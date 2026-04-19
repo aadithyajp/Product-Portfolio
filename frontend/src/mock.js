@@ -142,21 +142,21 @@ export const portfolioData = {
     },
     {
       category: "PAYMENTS · PAYMENT GATEWAY AGGREGATOR",
-      headline: "Building resilient payment flows for 60%+ success rates",
+      headline: "Building a multi-currency payment gateway aggregator for global travel transactions",
       intro: "A travel marketplace serving clients across multiple countries was losing transactions to payment gateway failures. Customers were abandoning bookings, and revenue was bleeding out — especially on cross-border and multi-currency purchases.",
       client: "Clarity Travel Technology",
       domain: "Payments / Travel",
       status: "Production",
-      tags: ["Payment orchestration", "Multi-currency", "Travel-tech", "PCI-DSS", "Virtual cards", "Fintech"],
+      tags: ["Payment orchestration", "Multi-currency", "Travel-tech", "PCI-DSS", "Fintech"],
       details: {
         context: "The platform onboarded clients from different regions, each with customers purchasing in different currencies. A single payment gateway couldn't handle the volume, currency variety, or regional compliance needs — and frequent downtime made failures worse.",
         userNeed: "Customers needed reliable payment processing regardless of currency or region. Business needed to maximise transaction success across all client accounts and minimise revenue loss.",
         constraints: "PCI-DSS compliance required across all payment flows. Multiple PSPs had different APIs, pricing, and currency support. Existing payment flows had to stay live during migration.",
         optionsConsidered: "Stick with a single gateway and negotiate SLA. Build a simple failover to a backup gateway. Create a full payment gateway aggregator platform.",
         tradeOffs: "Single gateway: simplest but couldn't support multi-currency clients or handle regional failures. Simple failover: quick win but not flexible enough for currency-aware routing. Full aggregator: complex to build but the only future-proof option for multi-client, multi-currency scale.",
-        decision: "Built a payment gateway aggregator platform with intelligent routing based on transaction currency, client region, real-time success rates, and cost optimisation — with virtual card processing as a fallback layer.",
-        execution: "Integrated 18+ payment gateways, each covering different currencies and regional strengths. Built intelligent routing logic with real-time success rate monitoring. Implemented virtual card processing with fallback for edge cases. Built reconciliation workflows for full audit transparency.",
-        outcome: "60% improvement in transaction success rates. 99% reduction in payment failures. 18+ gateways live across multi-currency, multi-client payment flows with full reconciliation.",
+        decision: "Built a payment gateway aggregator platform with intelligent routing based on transaction currency, client region, real-time success rates, and cost optimisation.",
+        execution: "Integrated 18+ payment gateways, each covering different currencies and regional strengths. Built intelligent routing logic with real-time success rate monitoring. Built reconciliation workflows for full audit transparency.",
+        outcome: "18+ gateways live across multi-currency, multi-client payment flows. Significant improvement in transaction success rates and reduction in payment failures. Full reconciliation in place for audit transparency.",
         lessonLearned: "Payment resilience isn't just redundancy — it's intelligent routing that accounts for currency, region, and real-time gateway performance."
       }
     },
