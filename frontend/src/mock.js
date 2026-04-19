@@ -179,6 +179,26 @@ export const portfolioData = {
         outcome: "25+ airline integrations across NDC and GDS. Real-time pricing with <2s response times. 99.5% booking success rate across all integrated airlines.",
         lessonLearned: "In industries undergoing technical transitions, supporting both legacy and modern standards is the only way to maximise coverage, reliability, and airline adoption."
       }
+    },
+    {
+      category: "PAYMENTS · VIRTUAL CARD (VCC)",
+      headline: "Enabling VCC payments to unlock rebates and eliminate transaction failures",
+      intro: "The platform had no Virtual Card (VCC) payment support — meaning clients who issued VCCs for travel transactions couldn't use them, and were leaving rebate revenue on the table. Every failed primary payment also had no intelligent fallback.",
+      client: "Clarity Travel Technology",
+      domain: "Payments / Travel",
+      status: "Production",
+      tags: ["Virtual cards", "VCC", "Payment fallback", "Terrapay", "Nium", "Travel-tech", "Fintech"],
+      details: {
+        context: "Some clients operate on a VCC-based payment model — where a virtual card is issued per transaction by their bank or card provider. Each time a VCC is used successfully, the client earns a rebate or cashback, making it a direct revenue lever. The platform had no native VCC support, which meant clients couldn't activate this benefit and had no fallback when primary payment methods failed.",
+        userNeed: "Clients needed VCC as a supported payment method to activate their rebate programmes and earn cashback on transactions. Operations teams needed a reliable fallback payment path to prevent booking failures when primary gateways declined.",
+        constraints: "Not all airlines support VCC as a payment method — acceptance varies by airline and region. VCC had to be issued only for supported airlines to avoid failed settlements. Integration required partnering with VCC processing providers capable of handling the transaction flow end-to-end.",
+        optionsConsidered: "Ignore VCC and keep existing payment flows only. Add VCC as a primary payment method for all transactions. Implement VCC as a selective payment method with airline-level support checks and use it as a fallback for failed transactions.",
+        tradeOffs: "Ignoring VCC: left client rebate revenue unrealised and had no fallback path. Primary-only VCC: risky — too many airlines don't support it. Selective + fallback: more complex to build but the only approach that captured rebate value and improved success rates without breaking unsupported flows.",
+        decision: "Implemented VCC as a smart payment layer — issued only for airlines with confirmed VCC support, and activated automatically as a fallback when primary payment methods failed. Integrated with Terrapay and Nium as VCC processing providers.",
+        execution: "Built airline-level VCC support mapping to gate issuance only where accepted. Integrated Terrapay and Nium for VCC processing and settlement. Implemented fallback logic to trigger VCC when primary gateway transactions failed. Ensured reconciliation workflows captured VCC transactions separately for rebate tracking.",
+        outcome: "Transaction success rates improved as VCC fallback reduced booking failures. Clients began earning rebates on VCC-processed transactions — creating a new passive revenue stream directly tied to platform usage. Zero disruption to airlines that don't support VCC.",
+        lessonLearned: "A payment feature isn't just a technical integration — it can be a direct revenue lever. Understanding the business model behind VCC (rebates, cashback) was what shaped the right scoping decision."
+      }
     }
   ],
 
