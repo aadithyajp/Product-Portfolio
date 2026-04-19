@@ -649,7 +649,7 @@ section {
   font-weight: 800;
   font-family: var(--font-display);
   color: var(--color-primary);
-  opacity: 0.2;
+  opacity: 0.5;
   line-height: 1;
 }
 
