@@ -78,6 +78,11 @@ export const portfolioData = {
         number: "06",
         title: "Use AI as leverage, not a shortcut",
         description: "I use AI to accelerate discovery, draft artifacts, model scenarios, and detect patterns — but every decision, trade-off, and product narrative stays human and accountable."
+      },
+      {
+        number: "07",
+        title: "Structure epics as capabilities, stories as vertical slices",
+        description: "I treat epics as customer-deliverable capabilities — not feature buckets. A complete epic should be something I can ship directly to a customer: end-to-end, capability-oriented, and scoped to fit within a sprint. It covers the full product flow, not just a layer of it. User stories go one level deeper — each one is a vertical slice that covers all functional impact areas needed to implement that piece of behaviour end to end. A well-written user story isn't just a dev task — it's a complete, independently testable unit that QA can verify from input to outcome without waiting for other stories to be done. This way, every sprint delivers working product, not just completed tasks."
       }
     ]
   },
