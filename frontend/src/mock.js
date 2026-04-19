@@ -52,7 +52,7 @@ export const portfolioData = {
       {
         number: "01",
         title: "Start with the job, not the feature",
-        description: "Before any ticket or roadmap, I map what users are trying to accomplish — in problem space, not solution space. Using Outcome-Driven Innovation (ODI), I build a solution-agnostic job map that captures intent, not behaviour. This keeps discovery grounded in real goals and eliminates the need to pivot mid-execution."
+        description: "Before any ticket or roadmap, I map what users are trying to accomplish — in problem space, not solution space. Using Outcome-Driven Innovation (ODI), I build a solution-agnostic job map that captures intent, not behaviour. Before committing to a POC, I get on a customer call to validate the problem and test willingness to pay. A confirmed job-to-be-done only becomes a POC when a customer signals they'd pay for the solution. This gates the roadmap on real demand — not internal assumptions."
       },
       {
         number: "02",
@@ -101,7 +101,7 @@ export const portfolioData = {
       {
         number: "07",
         title: "Ship to learn, not to launch",
-        description: "A release is the starting point for real learning, not the finish line. After every sprint delivery, I close the loop — collect customer feedback, analyse what landed and what didn't, and feed those signals directly into the next sprint's priorities. Learning velocity drives roadmap evolution more than launch cadence."
+        description: "A release is the starting point for real learning, not the finish line. After every sprint delivery, I close the loop — collect customer feedback, analyse what landed and what didn't, and feed those signals directly into the next sprint's priorities. Beyond feedback, I actively think about increasing the product's lifecycle in the client's environment — identifying where it can expand, deepen usage, or integrate further into existing workflows so it becomes indispensable over time. Learning velocity drives roadmap evolution more than launch cadence."
       }
     ]
   },
